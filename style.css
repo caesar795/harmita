@@ -1,0 +1,53 @@
+/* Resetting margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #99af4c;
+    color: greenyellow;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    color: #99af4c;
+}
+
+header p {
+    font-size: 1.2em;
+    
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 800px; /* Max width to make sure it looks good on all screen sizes */
+    height: 450px;
+    border: none;
+}
+
+footer {
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
